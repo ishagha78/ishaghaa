@@ -55,10 +55,14 @@
             }
 
             .arial{
-                background-color: #2FB4AE;
-                border:1px solid #2FB4AE;
+                background-color: #F4F6FB;
+                border:1px solid #F4F6FB;
                 border-radius:5px;
                 padding: 5px 15x 5px 15px;
+                margin: 10px 15px 10px 15px;
+                font-size:20px;
+                font-family:Arial, Helvetica, sans-serif;
+                text-align:center;
 
             }
 
@@ -93,13 +97,25 @@
             }
 
             #a{
-                margin-left: 100px;
+                margin-left:100px;
+                margin-right:100px;
             }
 
             #botton{
                 width:80px;
                 height:30px;
                 color:bisque;
+            }
+
+            #op{
+                font-size:40px;
+                font-family:Arial, Helvetica, sans-serif;
+            }
+
+            .ten{
+                font-size:15px;
+                color:rgb(176, 162, 162);
+
             }
                 
             
@@ -113,7 +129,7 @@
     </head>
 
     <body>
-        <div>
+        <div id="main">
             <table >
                 <tr>
                     <td width="10%">
@@ -244,19 +260,9 @@
                 
         </div>
 
-
-
-       
-
-        
-
-       
-
-
-        
    
     
-    </div>
+   
 
 
 
@@ -314,36 +320,42 @@
         </table>
     </div>
 
-    <div id="a" width="100%"> 
+    <div id="a" width="50%" > 
+        <table>
 
-        <p>دستاورد من</p>
+        <p id="op">دستاورد من</p>
         <tr>
-            <td class="arial">
+            <td>
+            <td class="arial" width="25%">
                 <img src="heart.png">
-                <p>900K +</p>
-            <h5> مشتری راضی</h5>
+                <b><p>900K +</p></b>
+            <h5 class="ten"> مشتری راضی</h5>
             </td>
 
-            <td class="arial">
+
+            
+            <td class="arial" width="25%">
                 <img src="blueprint.png">
-                <p>650 </p>
-                <h5>پروژهای موفق</h5>
+                <b><p>650 </p></b>
+                <h5 class="ten">پروژهای موفق</h5>
 
             </td>
 
-            <td class="arial">
+            <td class="arial" width="25%">
                 <img src="star.png">
-                <p>1000K +</p>
-                <h5>نظرات مشتریان</h5>
+                <b><p>1000K +</p></b>
+                <h5 class="ten">نظرات مشتریان</h5>
             </td>
-
-            <td class="arial">
+           
+        
+            <td class="arial" width="25%">
                 <img src="idea.png">
-                <p>15 +</p>
-                <h5>تجربه </h5>
-
+                <b><p>15 +</p></b>
+                <h5 class="ten">تجربه </h5>
+            </td>
             </td>
         </tr>
+    </table>
     </div>
 
 
@@ -390,6 +402,7 @@
                 <hr>
                 <p id="request">ارسال درخواست</p>
             </tr>
+        
 
 
         
