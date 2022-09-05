@@ -12,6 +12,7 @@
                 font-family:Arial, Helvetica, sans-serif ;
                 text-align:center;
                 color: black;
+                
             }
 
             .menu-item:hover{
@@ -39,7 +40,7 @@
             #about{
                 background:rgb(252,230,131);
                 border-radius:50%;
-                margin: top 20px;
+                margin-top:20px;
                                 
             }
 
@@ -63,11 +64,13 @@
                 font-size:20px;
                 font-family:Arial, Helvetica, sans-serif;
                 text-align:center;
+                
 
             }
 
             #tem{
                 background-color: rgb(244,246,251);
+                margin-left:30px;
             }
 
 
@@ -110,12 +113,26 @@
             #op{
                 font-size:40px;
                 font-family:Arial, Helvetica, sans-serif;
+                text-align:center;
             }
 
             .ten{
                 font-size:15px;
                 color:rgb(176, 162, 162);
 
+            }
+
+            #tem{
+                text-align:left;
+
+            }
+
+            #header{
+                position:fixed;
+                background-color:white;
+                width:100%;
+                height:12%;
+                
             }
                 
             
@@ -130,10 +147,11 @@
 
     <body>
         <div id="main">
+            <div id="header">
             <table >
                 <tr>
                     <td width="10%">
-                        <img src="shey2.jpg" width="80%">
+                        <img src="shey1.png" width="80%" >
                     </td>
 
                     <td width="20%"></td>
@@ -211,11 +229,18 @@
                     <td width="3%"></td>
 
                     <td width="46%">
-                        <b><br>
-                            <h2>
+                        <table border="1">
+                            <tr>
+                                <td>
+                                    <tr>
+                                        <td>
+                             <b><br>
+                              <h2>
                                 سلام به وبسایت من خوش امدید
-                            </h2>
+                              </h2>
                         </b>
+                        </td>
+                    </tr>
 
                         <b>
                             <p text-align="50%">
@@ -245,7 +270,11 @@
 
                       <img src="brand-5.png" width="20%">
                       <img src="brand-6.png" width="20%">
-                      <img src="brand-2.png" width="20%" >
+                      <img src="brand-2.png" width="20%">
+
+                    </td>
+                    </tr>
+                    </table>
             
            
 
@@ -359,34 +388,42 @@
     </div>
 
 
-    <div id="tem">
+    <div id="tem" width="100%">
+        <table width="100%">
         <tr>
             <td width="50%">
                 <h1>تماس با ما</h1>
                 <h5 >آیا نیاز به کمک دارید‌؟ فرم زیر را پر کنید تا با هم صحبت کنیم
                 </h5>
-                <hr>
+                <hr> 
 
                 <p>نشانی</p>
+                <img src="home.png" width="20px">
                 <h5>ایران</h5>
-
-
-
+                
+                
+                
                 <p>تلفن</p>
+                <img src="phone.png" width="20px">
                 <h5>090153335</h5>
 
 
                 <p>پشتیبانی</p>
+                <img src="email.png" width="20px"
                 <h5>info@shaghayegh.com</h5>
             </td>
+            </tr>
+        </table>
+            
 
             
-        
-            <td width="50%">
-            <table>
+    
+            <div>
+            <table border="1">
              
         
             <tr id="ftable">
+                <td>
                 <h5> ارسال درخواست پروژه</h5>
             <p>جزئیات پروژه خود را وارد کنید</p>
 
@@ -401,7 +438,9 @@
 
                 <hr>
                 <p id="request">ارسال درخواست</p>
+            </td>
             </tr>
+        </div>
         
 
 
