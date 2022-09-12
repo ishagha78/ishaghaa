@@ -73,6 +73,7 @@
                 margin: 10px 15px 10px 15px;
                 font-size:20px;
                 text-align:center;
+                box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
             }
 
 
@@ -87,24 +88,26 @@
                 border:1px solid black;
                 border-radius:30px;
                 font-size:15px;
-                
+                margin-left:30px;
                 text-align:center;
-                margin:15px 15px 15px 15px;
-
+                padding:15px 5px 15px 5px;
+                box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
             }
 
             #request{
                 color:white;
                 background-color:rgb(47,180,174);
                 font-size:15px;
-                
+                text-align:center ;
                 border:1px solid rgb(47,180,174);
-                border-radius:5px;
+                border-radius:10px;
+                
 
             }
 
             #rar{
                 margin-top: 200px;
+                
             }
 
             #a{
@@ -114,20 +117,17 @@
 
             #botton{
                 color:#979797;
-               margin-top:50;
+               margin-top:50pc;
                 text-align: center;
             }
 
-        #line{
+          #line{
             width:100px;
             height:1px;
             background-color:#FFCD00;
             border-radius:3px;
-            margin-left: 60px;
-            margin-top:20px;
-            
-            
-        }
+            margin-left: 40px;
+           }
 
             #myexperince{
                 color:#979797;
@@ -259,7 +259,42 @@
             color:#4b5c79;
            }
 
+           #contact{
+            font-size:30px;
+            color:rgb(28,47,80);
+            font-weight:bold;
+           }
 
+          
+
+          #help{
+            color:rgb(120,131,151);
+          }
+
+          #footer{
+            background-color: rgb(28,47,80);
+          }
+
+          #secondtext{
+            color: rgb(108,120,142);
+            font-size:13px;
+            font-weight:bold;
+          }
+
+          .company{
+            color: white;
+            
+            font-size:100%;
+          }
+
+          .thirdtext{
+            color: rgb(108,120,142);
+
+          }
+
+          #email{
+            color:rgb(108,120,142) ;
+          }
     
                 
 
@@ -348,7 +383,7 @@
                         
                     <td width="12%">
                         <b>
-                            <a id="ID" hraf="shey.html" >
+                            <a id="ID" hraf="http://shey.html" >
                                 ارسال پیام
                             </a>
                         </b>
@@ -484,7 +519,7 @@
 
 
     <div id="rar">
-        <table>
+        <table id="secondtable">
             <tr>
                 <td width="3%"></td>
 
@@ -514,8 +549,8 @@
                     <h3 id="text" width="30%">
                         لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده<br>
                         از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان<br>
-                        که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف
-                         بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال وآینده<br>
+                        که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع <br>با هدف
+                        بهبود ابزارهای کاربردی می باشد کتابهای زیادی در شصت و سه درصد گذشته حال وآینده<br>
                         
 
 
@@ -599,15 +634,15 @@
      <tr>
 
         <td width="50%">
-            <table>
+            <table >
                 <tr>
-                    <td>
+                    <td id="contact">
                     <p>تماس با من</p>
                     </td>
                 </tr>
 
                 <tr>
-                    <td >
+                    <td id="help" >
                         <p>آیا نیاز به کمک دارید‌؟ فرم زیر را پر کنید تا با هم صحبت کنیم</p><hr>
                     </td>
                 </tr>
@@ -618,10 +653,15 @@
                     </td>
                 </tr>
 
-                <tr>
-                    <td>
-                        <img src="home.png" width="4%">
-                    </td>
+                <tr>  
+                        <td>
+                            <table>
+                                <tr>
+                            <td width="4%"><img src="home.png" width="90%"></td>
+                            <td width="96%"><p>ایران</p></td>
+                          </tr>
+                        </table>
+                        </td>
                 </tr>
 
 
@@ -633,9 +673,16 @@
 
                 <tr>
                     <td>
-                    <img src="phone.png" width="4%">
-                   </td>
+                        <table >
+                            <tr>
+                        <td width="4%"><img src="phone.png" width="90%"></td>
+                        <td width="96%">091633333</p></td>
+                      </tr>
+                    </table>
+                    </td>
                 </tr>
+                        
+                    
 
                 <tr>
                     <td>
@@ -646,7 +693,13 @@
 
                     <tr>
                         <td>
-                            <img src="email.png" width="4%">
+                            <table>
+                            <tr>
+                        <td width="4%"><img src="email.png" width="90%"></td>
+                        <td width="96%">info@shaghayegh.com</p></td>
+                          </tr>
+                           </table>
+                            
                         </td>
                     </tr>
 
@@ -660,37 +713,47 @@
 
 
 
-        <td width="50%">
-            <table>
+        <td width="50%" id="ftable">
+            <table  width="100%">
                 <tr>
                     <td  width="100%">
-                        <h4>
-                            ارسال درخواست پروژه
-                        </h4>
-
                         <p>
+                            ارسال درخواست پروژه
+                        </p>
+
+                        <h2>
                             جزئیات پروژه خود را وارد کنید
 
-                        </p>
+                        </h2>
                     </td>
                 </tr>
 
                 <tr>
+                    
                     <td width="30%">
-                        <p>
-                            نام و نام خانوادگی
-                        </p>
-                        <hr>
+                        <table width="100%">
+                            <tr>
+                                <td width="50%">
+                                    <p>
+                                        نام و نام خانوادگی
+                                    </p>
+                                    <hr>
+
+                                </td>
+
+                                <td width="50%">
+                                    <p>
+                                        ایمیل
+                                    </p>
+                                    <hr>
+
+                                </td>
+                        
+                    </tr>
+                    </table>
                     </td>
 
 
-                    <td width="80%">
-                        <p>
-                            ایمیل
-                        </p>
-                        <hr>
-                    </td>
-                </tr>
 
                       <tr>
                            <td width="100%">
@@ -714,7 +777,7 @@
 
 
                       <tr>
-                        <td>
+                        <td id="request">
                             <p>
                                 ارسال درخواست
                             </p>
@@ -732,6 +795,103 @@
 
       </tr>
     </table>
+   </div>
+
+
+
+
+   <div id="footer">
+    <table border="1" width="100%">
+        <tr>
+            <td width="14%"></td>
+
+            <td width="20%" id="secondtext">
+                <p>A Private Limited is the most popular<br>
+                   type of partnership Malta. The limited<br>
+                   liability is, in fact, the only type of<br>
+                    company allowed by Companies.
+                </p>
+            </td>
+
+            <td width="14%">
+                <table>
+                        <tr>
+                            <td class="company"><h4>company</h4></td>
+                        </tr>
+
+                        <tr>
+                            <td class="thirdtext"><p>امنیت وحریم خصوصی</p></td>
+                        </tr>
+
+                        <tr>
+                            <td class="thirdtext"><p>پشتیبانی</p></td>
+                        </tr>
+
+                        <tr>
+                            <td class="thirdtext"><p>قوانین وشرایط</p></td>
+                        </tr>
+
+                        <tr>
+                            <td class="thirdtext"><p>تماس با من</p></td>
+                        </tr>
+
+                        <tr>
+                            <td class="thirdtext"><p>درباره من</p></td>
+                        </tr>
+                    
+                </table>
+            </td>
+
+            <td width="14%"> 
+                <table>
+                    <tr>
+                        <td class="company">
+                            <h4>
+                                لینکدین من
+                            </h4>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <img>
+                        </td>
+                    </tr>
+
+                       <tr>
+                        <td>
+                            <p>لینکدین من</p>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+                    
+
+                    <td width="24%"> 
+                    <table>
+                        <tr>
+                            <td class="company"><h4>ثبت نام در خبرنامه</h4></td>
+                        </tr>
+
+                        <tr>
+                            <td id="email"><p>ایمیل خود را وارد کنید تااز اخبار من باخبر شوید</p></td>
+                        </tr>
+
+                        <tr>
+                        <td>
+                            <input>
+                        </td>
+                        </tr>
+                </table>
+            </td>
+
+            
+            <td width="14%"></td>
+        </tr>
+    </table>
+
+
+
    </div>
 
 </body>
